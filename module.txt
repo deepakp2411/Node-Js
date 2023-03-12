@@ -1,0 +1,13 @@
+// module 
+
+const names = require("./name")
+const sayHi = require('./utils')
+
+
+
+// sayHi("Deepak")
+// sayHi(john)
+// sayHi(peter)
+sayHi("Deepakpatel")
+
+console.log(names)

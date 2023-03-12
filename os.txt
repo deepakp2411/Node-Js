@@ -1,0 +1,16 @@
+// built in modules 
+// os 
+// path 
+// fs
+// http
+
+const os = require('os')
+// info about current user
+
+// const user = os.userInfo()
+// const user = os.freemem()
+// const user = os.platform()
+const user = os.release()
+const ve = os.version()
+console.log(user)
+console.log(ve)
